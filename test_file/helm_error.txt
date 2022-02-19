@@ -1,0 +1,3 @@
+[student@workstation exochart]$ helm install exoplanets .
+Error: Deployment in version "v1" cannot be handled as a Deployment: v1.Deployment.Spec: v1.DeploymentSpec.Template: v1.PodTemplateSpec.Spec: v1.PodSpec.Containers: []v1.Container: v1.Container.Env: []v1.EnvVar: v1.EnvVar.Value: ReadString: expects " or n, but found 2, error found in #10 byte of ...|,"value":26257},{"na|..., bigger context ...|oplanets-cockroachdb"},{"name":"DB_PORT","value":26257},{"name":"DB_USER","value":"root"},{"name":"D|...
+
